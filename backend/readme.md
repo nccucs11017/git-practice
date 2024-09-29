@@ -65,6 +65,8 @@ node_modules 資料夾內除了已安裝的模組之外，還有 .package-lock.j
 - 說明文件
 - 授權資訊
 
+至於 package-lock.json 就是放不放沒什麼差的那種
+
 ### CommonJS 與 ECMAScript Modules
 
 CJS 的引入方式：`物件 = require('模組名稱')`，一次引入一整包的模組

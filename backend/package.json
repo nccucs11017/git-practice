@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rickroll": "echo Never gonna give you up, && echo Never gonna let you down. && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

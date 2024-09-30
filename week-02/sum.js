@@ -25,7 +25,7 @@ console.log(sum3(array));
 // sum(n)
 
 function sum4(n) {
-  return Array(n).fill(1).reduce((prev, _, index) => prev + index + 1); // arr[0] + (1+1) + (2+1) + ...
+  return Array(n).fill(0).reduce((prev, _, index) => prev + index + 1, 0); // 9/30 update: 改用 initial value
 }
 
 // ref: https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
